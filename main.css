@@ -1,0 +1,79 @@
+body {
+    width: 1000px;
+    margin: 0px;
+    color: white;
+    background-color: black;
+    height: 3000px;
+}
+.mainpage {
+    background-image: url(green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    filter: brightness(75%);
+    background-size: 2000px 1000px;
+    height: 1000px;
+    width: 2000px;
+    margin: 0px;
+    filter: brightness(75%);
+}
+.nav {
+    height: 20px;
+    position: fixed;
+    top: 20px;
+    margin: auto;
+}
+.bar {
+    position: relative;
+    height: 1px;
+    background-color: white;
+    bottom: 0px;
+    width: 1800px;
+    left: 100px;
+    
+}
+.freshest {
+    left:30px;
+    position: relative;
+}
+.right {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 1700px;
+}
+#Title {
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    order: 4;
+}
+#Subtitle {
+    justify-content: center;
+    font-size: 40px;
+    font-weight: lighter;
+    display: flex;
+    order: 5;
+}
+.title {
+    display: flex;
+    height: 1000px;
+    width: 2000px;
+    flex-direction: column;
+    position: absolute;
+    top: 300px;
+}
+#p1 {
+    background-image: url(human-holding-a-bread-745988.jpg); 
+    background-size: 500px 500px;
+    position: absolute;
+    height: 500px;
+    top: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#h1 {
+    display: flex;
+}
+#h2 {
+    display: flex;
+}
